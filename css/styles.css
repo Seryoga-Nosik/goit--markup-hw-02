@@ -1,0 +1,95 @@
+/* ======= GLOBAL STYLES ======= */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.page {
+    font-family: var(--primary-page-font);
+    color: var(--primary-text-color);
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+  }
+
+/* Основной шрифт страницы font-family: 'Roboto', sans-serif; */
+/* Вторичный шрифт страницы font-family: 'Raleway', sans-serif; */
+/* Основной цвет текста #757575 */
+/* Вторичный цвет текста  #212121 */
+/* Цвет акцента #2196F3 */
+/* Белый цвет текста #FFFFFF */
+/* Черный цвет текста #000000 */
+/* Цвет текста в футере rgba(255, 255, 255, 0.6) */
+/* Основной фоновый цвет #FFFFFF */
+/* Вторичный фоновый цвет #F5F4FA */
+/* Фоновый цвет футера #2F303A */
+
+:root{
+    --primary-page-font: 'Roboto', sans-serif;
+    --secondary-page-font: 'Raleway', sans-serif;
+    --primary-text-color: #757575;
+    --secondary-text-color: #212121;
+    --accent-text-color: #2196F3;
+    --white-text-color: #FFFFFF;
+    --black-text-color: #000000;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #F5F4FA;
+    --footer-backgaround-color: #2F303A;
+}
+
+/* ======= END GLOBAL STYLES ======= */
+
+/* ======= HEADER ======= */
+
+.navigation-list-link,
+.address-list-item {
+font-size: 14px;
+line-height: 1.143;
+letter-spacing: 0.02em;
+}
+
+.navigation-list-link {
+    color: var(--secondary-text-color);
+}
+
+.navigation-list-link:hover,
+.navigation-list-link:focus,
+.address-list-item:hover,
+.address-list-item:focus {
+    color: var(--accent-text-color);
+}
+
+/* ======= END HEADER ======= */
+
+/* =======  ======= */
+
+/* =======  ======= */
+
+/* =======  ======= */
+
+/* =======  ======= */
+
+/* =======  ======= */
+
+/* =======  ======= */
+
+/* =======  ======= */
+
+/* =======  ======= */
+
